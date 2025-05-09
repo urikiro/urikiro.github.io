@@ -34,4 +34,3 @@ toggleAudio.addEventListener("click", () => {
   bgMusic.muted = !bgMusic.muted;
   toggleAudio.textContent = bgMusic.muted ? "🔇" : "🔈";
 });
-
