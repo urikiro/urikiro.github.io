@@ -1,11 +1,46 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>emii.space</title>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="css/styleIndex.css"/>
-</head>
-<body>
-  <img src="../images/eye1.png"/>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>:3</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <img src="Resources/eye1.png" alt="eye" class="eye-button" id="eye" />
+
+    <audio id="bgMusic" loop>
+      <source src="Resources/AqAmb.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <button id="toggleAudio" class="audio-toggle">🔈</button>
+
+    <div class="content" id="hiddenContent">
+      <span class="close-btn" id="closeBtn">✖</span>
+
+      <h1 class="popup-header">hi am emii</h1>
+      <img src="Resources/transge.png" class="transge-image" alt="Transge" />
+      <div class="centered-text"></div>
+
+      <div class="link-row">
+        <a href="https://steamcommunity.com/id/urikiro/" target="_blank">
+          <img src="Resources/steam.svg" alt="Steam" />
+        </a>
+        <div class="tooltip-container">
+          <img src="Resources/discord.svg" alt="Discord" class="copy-discord" />
+          <span class="tooltip-text" id="discordTooltip"
+            >Click to copy: urikiro</span
+          >
+        </div>
+        <a
+          href="https://open.spotify.com/user/cnfi9pnlo5t6mv4q4vazjvia2?si=8841e5e58a37469f"
+          target="_blank"
+        >
+          <img src="Resources/spotify.png" alt="Spotify" />
+        </a>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
