@@ -18,7 +18,7 @@ body {
   left: 0;
   width: 100%;
   height: 100vh;
-  background: #111;
+  background: #111 url("../Resources/eyerepeat.png") center/cover no-repeat;
   box-sizing: border-box;
   transition: top 0.8s ease-in-out;
   display: flex;
@@ -27,6 +27,7 @@ body {
   align-items: center;
   text-align: center;
   padding: 2em;
+  overflow: hidden;
 }
 
 .content.revealed {
@@ -107,6 +108,7 @@ body {
   width: 2em;
   vertical-align: middle;
 }
+
 .audio-toggle {
   position: fixed;
   bottom: 1em;
@@ -117,4 +119,9 @@ body {
   font-size: 1.5em;
   cursor: pointer;
   z-index: 999;
+}
+
+.eye-button {
+  width: 25%;
+  height: auto;
 }
