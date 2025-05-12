@@ -26,7 +26,7 @@ discordIcon.addEventListener("click", () => {
 const bgMusic = document.getElementById("bgMusic");
 const toggleAudio = document.getElementById("toggleAudio");
 
-bgMusic.volume = 0.01;
+bgMusic.volume = 0.001;
 eye.addEventListener("click", () => {
   bgMusic.play().catch(() => {});
 });
