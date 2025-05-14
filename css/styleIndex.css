@@ -152,7 +152,8 @@ body {
   position: absolute;
   bottom: 2.5em;
   accent-color: white;
-  transform: rotate(0deg);
+  transform: rotate(-90deg);
+  transform-origin: center;
   z-index: 1;
 }
 
