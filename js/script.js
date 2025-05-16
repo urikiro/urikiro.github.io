@@ -30,8 +30,8 @@ const bgMusic = document.getElementById("bgMusic");
 const toggleAudio = document.getElementById("toggleAudio");
 const volumeSlider = document.getElementById("volumeSlider");
 
-bgMusic.volume = 0.0025;
-volumeSlider.value = 0.0025;
+bgMusic.volume = 1;
+volumeSlider.value = 1;
 
 toggleAudio.addEventListener("click", () => {
   bgMusic.muted = !bgMusic.muted;
